@@ -14,5 +14,8 @@ $uid = $_SESSION['uid'];
             header("location:login.php");
         }
 ?>
+
+
+
 <a href="?q=logout">LOGOUT</a>
 <h1> Hello <?php $user->get_fullname($uid); ?></h1>
